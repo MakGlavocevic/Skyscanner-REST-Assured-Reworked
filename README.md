@@ -13,7 +13,7 @@ rapidapi.com link: https://rapidapi.com/skyscanner/api/skyscanner-flight-search/
 --------------------------------------
 
 ## Prerequisites
-1.Java SDK 14.0.1 (https://www.oracle.com/java/technologies/javase-downloads.html)
+1.Java 1.8 (https://www.oracle.com/java/technologies/javase-downloads.html)
 
 2.IntelliJ IDEA Community Edition (https://www.jetbrains.com/idea/)
 
@@ -21,15 +21,17 @@ rapidapi.com link: https://rapidapi.com/skyscanner/api/skyscanner-flight-search/
 
 4.TestNG (will be installed via maven)
 
+5. Hamcrest Matchers (will be installed via maven)
+
 --------------------------------------
 
 ## How to run
 
-1. Install Java SDK 14.0.1
+1. Java 1.8
 
 2. Install latest IntelliJ IDEA Community Edition
 
-3. Clone my git repository (https://github.com/MakGlavocevic/Skyscanner-API-automation-with-REST-Assured.git)
+3. Clone my git repository (https://github.com/MakGlavocevic/Skyscanner-REST-Assured-Reworked.git)
 
 4. Open IntelliJ IDEA Community Edition
 
