@@ -16,8 +16,8 @@ public class SkyscannerAPITesting {
 public Object[] createData(){
         return new String[][]{
                 {"UK", "EUR", "en-US", "Frankfurt", "London", "FRAN-sky", "LOND-sky", "€", "Places[0].CityName", "Places[1].CityName"},
-                {"US", "USD", "en-US", "Miami", "New York", "MIA-sky", "NYCA-sky", "€", "Places[2].CityName", "Places[0].CityName"},
-                {"JP", "JPY", "en-US", "Tokyo", "Beijing", "TYOA-sky", "BJSA-sky", "€", "Places[0].CityName", "Places[2].CityName"}
+                {"US", "EUR", "en-US", "Miami", "New York", "MIA-sky", "NYCA-sky", "€", "Places[2].CityName", "Places[0].CityName"},
+                {"JP", "EUR", "en-US", "Tokyo", "Beijing", "TYOA-sky", "BJSA-sky", "€", "Places[0].CityName", "Places[2].CityName"}
 
         };
 }
@@ -87,7 +87,7 @@ public void TestCase01(String market, String currency, String locale, String pla
                 and().body(jspathOne, equalTo(placeOne)).
                 and().body(jspathTwo, equalTo(placeTwo)).
                 and().body("Quotes[0].QuoteId", equalTo(1)).
-                and().body("Currencies.Symbol", hasItem(symbol)).extract().response();
+                and().body("Currencies.Symbol", hasItem(symbol));
 
     }
 }
