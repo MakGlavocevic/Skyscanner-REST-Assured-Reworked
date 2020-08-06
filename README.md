@@ -21,7 +21,7 @@ rapidapi.com link: https://rapidapi.com/skyscanner/api/skyscanner-flight-search/
 
 4.TestNG (will be installed via maven)
 
-5. Hamcrest Matchers (will be installed via maven)
+5.Hamcrest Matchers (will be installed via maven)
 
 --------------------------------------
 
