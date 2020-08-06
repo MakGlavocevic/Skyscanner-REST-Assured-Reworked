@@ -13,35 +13,35 @@ rapidapi.com link: https://rapidapi.com/skyscanner/api/skyscanner-flight-search/
 --------------------------------------
 
 ## Prerequisites
-1. Java 1.8 (https://www.oracle.com/java/technologies/javase-downloads.html)
+Java 1.8
 
-2. IntelliJ IDEA Community Edition (https://www.jetbrains.com/idea/)
+IntelliJ IDEA Community Edition (https://www.jetbrains.com/idea/)
 
-3. REST Assured (will be installed via maven)
+REST Assured (will be installed via maven)
 
-4. TestNG (will be installed via maven)
+TestNG (will be installed via maven)
 
-5. Hamcrest Matchers (will be installed via maven)
+Hamcrest Matchers (will be installed via maven)
 
 --------------------------------------
 
 ## How to run
 
-1. Java 1.8
+Java 1.8
 
-2. Install latest IntelliJ IDEA Community Edition
+Install latest IntelliJ IDEA Community Edition
 
-3. Clone my git repository (https://github.com/MakGlavocevic/Skyscanner-REST-Assured-Reworked.git)
+Clone my git repository (https://github.com/MakGlavocevic/Skyscanner-REST-Assured-Reworked.git)
 
-4. Open IntelliJ IDEA Community Edition
+Open IntelliJ IDEA Community Edition
 
-5. Open the folder where my project is via IntelliJ
+Open the folder where my project is via IntelliJ
 
-6. In the Project window on the sidebar go to pom.xml 
+In the Project window on the sidebar go to pom.xml 
 
-7. Inside pom.xml see if all of the dependecies are up to date and let IntelliJ download them if you dont have them alredy.(load meaven changes button) or install them via CLI with mvn clean install command
+Inside pom.xml see if all of the dependecies are up to date and let IntelliJ download them if you dont have them alredy.(load meaven changes button) or install them via CLI with mvn clean install command
 
-8. Go to src>test>java and click on TestRequest there you can right click and select Run to run the test.
+Go to src>test>java and click on TestRequest there you can right click and select Run to run the test.
 
 --------------------------------------
 
