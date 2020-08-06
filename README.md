@@ -13,15 +13,15 @@ rapidapi.com link: https://rapidapi.com/skyscanner/api/skyscanner-flight-search/
 --------------------------------------
 
 ## Prerequisites
-1.Java 1.8 (https://www.oracle.com/java/technologies/javase-downloads.html)
+1. Java 1.8 (https://www.oracle.com/java/technologies/javase-downloads.html)
 
-2.IntelliJ IDEA Community Edition (https://www.jetbrains.com/idea/)
+2. IntelliJ IDEA Community Edition (https://www.jetbrains.com/idea/)
 
-3.REST Assured (will be installed via maven)
+3. REST Assured (will be installed via maven)
 
-4.TestNG (will be installed via maven)
+4. TestNG (will be installed via maven)
 
-5.Hamcrest Matchers (will be installed via maven)
+5. Hamcrest Matchers (will be installed via maven)
 
 --------------------------------------
 
