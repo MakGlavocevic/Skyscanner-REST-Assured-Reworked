@@ -1,5 +1,8 @@
 # Skyscanner-REST-Assured-Reworked
-Testing API with REST Assured and TestNG
+
+Testing API with REST Assured, TestNG and Hamcrest
+
+--------------------------------------
 
 ## Overview
 
